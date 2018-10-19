@@ -26,7 +26,7 @@ public class ArrayStack implements Stack {
         if(!empty()) {
             return (this.arr[top--]);
         }
-        return("oops");
+        return("Invalid!");
     }
 
     @Override
@@ -34,7 +34,7 @@ public class ArrayStack implements Stack {
         if(!empty()){
             return (this.arr[top]);
         }
-        return "oops";
+        return "Invalid!";
     }
 
     @Override

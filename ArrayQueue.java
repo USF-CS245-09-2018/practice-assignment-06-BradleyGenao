@@ -44,7 +44,7 @@ public class ArrayQueue implements Queue {
             return out;
         }
 
-        return("oops");
+        return("Invalid!");
     }
 
     @Override
@@ -65,18 +65,7 @@ public class ArrayQueue implements Queue {
     }
 
     public static void main(String args[]){
-        ArrayQueue q = new ArrayQueue();
-        System.out.println(q);
-        q.enqueue(1);
-        q.dequeue();
-        q.enqueue(6);
-        q.enqueue(7);
-        q.dequeue();
-        q.enqueue(8);
 
-
-
-        System.out.println(q);
 
 
 
